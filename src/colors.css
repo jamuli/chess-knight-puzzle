@@ -1,0 +1,11 @@
+:root {
+    --white-square-color: #EEEED2;
+    --black-square-color: #769656;
+    --white-highlight-square-color: #F6F668;
+    --black-highlight-square-color: #BBCA2B;
+    --white-illegal-square-color: #F08B81;
+    --black-illegal-square-color: #B55F44;
+    --enabled-illegal-move-icon: #f37267;
+    --disabled-illegal-move-icon: #eec6c3;
+    --disabled-illegal-move-icon: #8a4949e3;
+}

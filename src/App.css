@@ -1,0 +1,178 @@
+@import 'colors.css';
+
+.App {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.App-header {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #3d434e;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(80vw, 80vh);
+    height: 100%;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 75vh;
+    height: 75vh;
+    /* box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.25); */
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.square {
+    width: 12.5%; 
+    height: 12.5%;
+}
+
+.chess-piece-container {
+    width: 100%;
+    height: 100%;
+}
+
+.illegal-move-counter {
+    background-color: var(--white-square-color);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    left: 0;
+}
+
+.square {
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.chess-piece {
+    -khtml-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    width: 95%;
+}
+
+.color-test-container {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- STYLING FOR ILLEGAL MOVE ICON ---------- */
+
+.illegal-move-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vh;
+    height: 10vh;
+
+    position: absolute;
+    top: 88vh;
+    left: 50%;
+    margin-left: -37.5vh;
+}
+
+.illegal-move-icon-big-enabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    background-color:var(--enabled-illegal-move-icon);
+    margin: 5px;
+    border-radius: 1em;
+}
+
+.illegal-move-icon-big-disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    background-color: var(--disabled-illegal-move-icon);
+    margin: 5px;
+    border-radius: 1em;
+}
+
+/* ---------- STYLING FOR TIMER ---------- */
+
+ .timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 75vh;
+    height: 8.5vh;
+
+    font-size: 5vh;
+    color: rgb(199, 199, 199);
+
+    position: absolute;
+    top: 2vh;
+
+    border-radius: 5px;
+    /* background-color: #2e2f30; */
+}
+
+
+.timer-button-start-game {
+    color: green
+}
+
+/* ---------- ANIMATIONS ---------- */
+
+@keyframes wrong-square-blinker-white {
+    30% {
+        background-color: var(--white-illegal-square-color);
+    }
+}
+
+@keyframes wrong-square-blinker-black {
+    30% {
+        background-color: var(--black-illegal-square-color);
+    }
+}
+@keyframes next-square-blinker-white {
+    50% {
+        background-color: var(--black-square-color);
+    }
+}
+
+@keyframes next-square-blinker-black {
+    50% {
+        background-color: var(--white-square-color);
+    }
+}
+
+@keyframes invalid-and-next-blinker-white {
+    
+}
