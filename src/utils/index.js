@@ -1,10 +1,16 @@
 import { OFFICIAL_COLORS as COLORS } from './../constants'
 
-export const getFormattedTime = (time) => {
+
+export const getFormattedTime = (time, desktopFormat) => {
     const ms = ('0' + Math.floor(time % 100)).slice(-2)
     const s = ('0' + Math.floor((time / 100) % 60)).slice(-2)
     const m = ('0' + Math.floor(time / 6000) % 50).slice(-2)
-    return `${m} : ${s} : ${ms}`
+    if (desktopFormat) {
+        return `${m} : ${s} : ${ms}`
+    } else {
+        return `${m} : ${s}`
+    }
+    
 }
 
 export const determineIfSquareIsWhite = (i) => {

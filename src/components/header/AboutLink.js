@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom'
 
 function AboutLink() {
     return (
-        <Link 
-            className='header-link'
-            to='/about'
-        >
+        <Link className='header-link' to='/about'>
             About  
         </Link>
     )

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { Button, Icon } from 'semantic-ui-react'
+import { useMediaQuery } from 'react-responsive'
+import { Icon } from 'semantic-ui-react'
 
 import { startGame, endGame, resetGame } from './../actions'
 import { getFormattedTime } from './../utils'
@@ -49,12 +50,17 @@ export default function Timer() {
         setTime(0)
         dispatch(resetGame())
     }
-    
+
+    const desktopFormat = useMediaQuery({
+          query: "(min-width: 400px)"
+        })
+    console.log(desktopFormat)
+
     return (
         <div className={'timer-container'}>
             {gameStarted ? 
                 <>
-                    <div style={{padding: '20px'}}> {getFormattedTime(time)}</div>
+                    <div style={{padding: '20px'}}> {getFormattedTime(time, desktopFormat)}</div>
                     <Icon
                         className='timer-button reset'
                         name='sync alternate'
