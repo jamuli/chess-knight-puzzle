@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/chess-knight-puzzle/static/css/main.a2ed448d.chunk.css",
-    "main.js": "/chess-knight-puzzle/static/js/main.ed44ab32.chunk.js",
-    "main.js.map": "/chess-knight-puzzle/static/js/main.ed44ab32.chunk.js.map",
-    "runtime-main.js": "/chess-knight-puzzle/static/js/runtime-main.2f449dd9.js",
-    "runtime-main.js.map": "/chess-knight-puzzle/static/js/runtime-main.2f449dd9.js.map",
+    "main.css": "/chess-knight-puzzle/static/css/main.b4233aef.chunk.css",
+    "main.js": "/chess-knight-puzzle/static/js/main.45b61524.chunk.js",
+    "main.js.map": "/chess-knight-puzzle/static/js/main.45b61524.chunk.js.map",
+    "runtime-main.js": "/chess-knight-puzzle/static/js/runtime-main.b3822bf7.js",
+    "runtime-main.js.map": "/chess-knight-puzzle/static/js/runtime-main.b3822bf7.js.map",
     "static/css/2.1aa9e2fd.chunk.css": "/chess-knight-puzzle/static/css/2.1aa9e2fd.chunk.css",
-    "static/js/2.9ac491a0.chunk.js": "/chess-knight-puzzle/static/js/2.9ac491a0.chunk.js",
-    "static/js/2.9ac491a0.chunk.js.map": "/chess-knight-puzzle/static/js/2.9ac491a0.chunk.js.map",
-    "static/js/3.4c5e6d84.chunk.js": "/chess-knight-puzzle/static/js/3.4c5e6d84.chunk.js",
-    "static/js/3.4c5e6d84.chunk.js.map": "/chess-knight-puzzle/static/js/3.4c5e6d84.chunk.js.map",
+    "static/js/2.4592c20a.chunk.js": "/chess-knight-puzzle/static/js/2.4592c20a.chunk.js",
+    "static/js/2.4592c20a.chunk.js.map": "/chess-knight-puzzle/static/js/2.4592c20a.chunk.js.map",
+    "static/js/3.bf297a6d.chunk.js": "/chess-knight-puzzle/static/js/3.bf297a6d.chunk.js",
+    "static/js/3.bf297a6d.chunk.js.map": "/chess-knight-puzzle/static/js/3.bf297a6d.chunk.js.map",
     "index.html": "/chess-knight-puzzle/index.html",
     "static/css/2.1aa9e2fd.chunk.css.map": "/chess-knight-puzzle/static/css/2.1aa9e2fd.chunk.css.map",
-    "static/css/main.a2ed448d.chunk.css.map": "/chess-knight-puzzle/static/css/main.a2ed448d.chunk.css.map",
-    "static/js/2.9ac491a0.chunk.js.LICENSE.txt": "/chess-knight-puzzle/static/js/2.9ac491a0.chunk.js.LICENSE.txt",
+    "static/css/main.b4233aef.chunk.css.map": "/chess-knight-puzzle/static/css/main.b4233aef.chunk.css.map",
+    "static/js/2.4592c20a.chunk.js.LICENSE.txt": "/chess-knight-puzzle/static/js/2.4592c20a.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/chess-knight-puzzle/static/media/outline-icons.ddae9b1b.woff",
     "static/media/knight_b.d714eeb4.svg": "/chess-knight-puzzle/static/media/knight_b.d714eeb4.svg",
     "static/media/queen_w.5b678bc3.svg": "/chess-knight-puzzle/static/media/queen_w.5b678bc3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f449dd9.js",
+    "static/js/runtime-main.b3822bf7.js",
     "static/css/2.1aa9e2fd.chunk.css",
-    "static/js/2.9ac491a0.chunk.js",
-    "static/css/main.a2ed448d.chunk.css",
-    "static/js/main.ed44ab32.chunk.js"
+    "static/js/2.4592c20a.chunk.js",
+    "static/css/main.b4233aef.chunk.css",
+    "static/js/main.45b61524.chunk.js"
   ]
 }
