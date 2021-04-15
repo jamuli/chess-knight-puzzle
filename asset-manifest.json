@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chess-knight-puzzle/static/css/main.b4233aef.chunk.css",
-    "main.js": "/chess-knight-puzzle/static/js/main.8d70ac75.chunk.js",
-    "main.js.map": "/chess-knight-puzzle/static/js/main.8d70ac75.chunk.js.map",
+    "main.js": "/chess-knight-puzzle/static/js/main.add3c665.chunk.js",
+    "main.js.map": "/chess-knight-puzzle/static/js/main.add3c665.chunk.js.map",
     "runtime-main.js": "/chess-knight-puzzle/static/js/runtime-main.b3822bf7.js",
     "runtime-main.js.map": "/chess-knight-puzzle/static/js/runtime-main.b3822bf7.js.map",
     "static/css/2.1aa9e2fd.chunk.css": "/chess-knight-puzzle/static/css/2.1aa9e2fd.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.1aa9e2fd.chunk.css",
     "static/js/2.b8c3827a.chunk.js",
     "static/css/main.b4233aef.chunk.css",
-    "static/js/main.8d70ac75.chunk.js"
+    "static/js/main.add3c665.chunk.js"
   ]
 }
