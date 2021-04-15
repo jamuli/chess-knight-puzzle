@@ -52,7 +52,6 @@ export default function Timer() {
     
     return (
         <div className={'timer-container'}>
-            
             {gameStarted ? 
                 <>
                     <div style={{padding: '20px'}}> {getFormattedTime(time)}</div>
@@ -63,22 +62,14 @@ export default function Timer() {
                         link
                         onClick={() => handleResetGameClick()}
                     ></Icon>
-                    {/* <div className='timer-button-container'>
-                        <Button 
-                            icon='stop'
-                            className='timer-button end-game'
-                            onClick={() => handleEndGameClick()}
-                        /> 
-                        
-                    </div> */}
                      
                 </> : 
 
                 <>
-                    <Button 
+                    <button 
                         className='timer-button-start-game'
                         onClick={() => handleStartGameClick()}
-                    >Start Game</Button>
+                    >Start Game</button>
                 </>
             }
 

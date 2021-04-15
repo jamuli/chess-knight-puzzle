@@ -12,9 +12,9 @@ import {
     KNIGHT, QUEEN
     } from './../constants'
 
-import Empty from './Pieces/Empty'
-import Knight from './Pieces/Knight'
-import Queen from './Pieces/Queen'
+import Empty from './pieces/Empty'
+import Knight from './pieces/Knight'
+import Queen from './pieces/Queen'
 import Square from './Square'
 
 

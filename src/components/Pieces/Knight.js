@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { selectSquare } from '../../actions'
 import knight_svg from './../../assets/knight_b.svg'
 import { useDrag } from 'react-dnd'
-import { ItemTypes } from './../../constants'
+import { ItemTypes } from '../../constants'
 
 export default function Knight(i) {
     const location = i.i

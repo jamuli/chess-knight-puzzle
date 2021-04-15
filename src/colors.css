@@ -8,4 +8,6 @@
     --enabled-illegal-move-icon: #f37267;
     --disabled-illegal-move-icon: #eec6c3;
     --disabled-illegal-move-icon: #8a4949e3;
+
+    --color-header-text: rgba(205,217,229,0.7);
 }
