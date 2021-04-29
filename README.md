@@ -10,4 +10,4 @@ Unlike normal chess.... the black knight will go first, and white has no moves i
 ## How Knights Move in Chess
 Unlike other pieces that move in straight lines, knights make 'L-shaped' moves. As long as the space allows for it, knights can move two squares in any direction and another square along the opposite axis in either direction. 
 
-![alt text](https://s3.amazonaws.com/hr-assets/0/1486410238-98ef4547f1-knightl-example-ps.png)
+![Image Unavailable](https://s3.amazonaws.com/hr-assets/0/1486410238-98ef4547f1-knightl-example-ps.png)
