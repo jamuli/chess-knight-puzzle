@@ -1,6 +1,6 @@
 # Chess Knight Puzzle
 
-Practice visualizing chess moves with this simply (but deceptively difficult) puzzle.
+Practice visualizing knight moves with this simply (but deceptively difficult) puzzle.
 
 ## How to Play
 Move the black knight to the next blinking square until the last square is reached. HOWEVER, you must avoid moving the knight to squares attacked by the queen and the square that the queen is currently on. 
