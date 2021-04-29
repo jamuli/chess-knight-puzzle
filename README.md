@@ -7,5 +7,7 @@ Move the black knight to the next blinking square until the last square is reach
 
 Unlike normal chess.... the black knight will go first, and white has no moves it's just a puzzle not a standard chess game). 
 
-## How Knights Move
-Unlike other pieces that move in straight lines, knights make 'L-shaped' moves. 
+## How Knights Move in Chess
+Unlike other pieces that move in straight lines, knights make 'L-shaped' moves. As long as the space allows for it, knights can move two squares in any direction and another square along the opposite axis. 
+
+![alt text](https://steemitimages.com/DQmXmpMzN8YvtaXwkQxR8DSVDhkJmso3TEQHFCSMhNFgnMn/ble1321n.gif)
